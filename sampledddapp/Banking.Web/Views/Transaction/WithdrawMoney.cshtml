@@ -1,0 +1,66 @@
+﻿@model Banking.Web.ViewModel.CreditDebitMoneyViewModel
+@{
+    ViewBag.Title = "WithdrawMoney";
+}
+
+<h2>Withdraw Money</h2>
+@if (ViewBag.TransactionInfo == null)
+{
+    using (Html.BeginForm("WithdrawMoney", "Transaction", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Enter you account number, username and amount to withdraw money.</h4>
+        <hr />
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("UserName :", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.bankAccountViewModel.UserName, new { @class = "form-control", @readonly = true })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("AccountNumber :", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.bankAccountViewModel.AccountNumber, new { @class = "form-control", @readonly = true })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Amount :", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.transactionViewModel.Amount, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-default" />
+            </div>
+        </div>
+    }
+}
+else if (ViewBag.TransactionInfo.Status == "Success")
+{
+    <h4>Withdrawn successfully!!</h4>
+    <hr />
+    <p>Account balance : <b>$@ViewBag.TransactionInfo.bankAccountViewModel.Balance</b></p>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+            <input type="button" value="Back" onclick="window.location.href='@Url.Action("WithdrawMoney", "Transaction" )';" class="btn btn-default" />
+
+        </div>
+    </div>
+}
+else
+{
+    <h4>Failed!</h4>
+    <hr />
+    <p>@ViewBag.TransactionInfo.Status</p>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+            <input type="button" value="Back" onclick="window.location.href='@Url.Action("WithdrawMoney", "Transaction" )';" class="btn btn-default" />
+
+        </div>
+    </div>
+}
+

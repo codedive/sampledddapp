@@ -1,0 +1,5 @@
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\bin\Debug\Banking.Tests.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\bin\Debug\Banking.Tests.pdb
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.pdb
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.csprojResolveAssemblyReference.cache

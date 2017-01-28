@@ -1,0 +1,118 @@
+﻿@model Banking.Web.ViewModel.BankAccountViewModel
+@{
+    ViewBag.Title = "MiniStatement";
+}
+
+<h2>Mini Statement</h2>
+@if (ViewBag.Transactions == null)
+{
+    using (Html.BeginForm("MiniStatement", "BalanceEnquiry", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Enter you account number and username to check transaction history.</h4>
+        <hr />
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("UserName :", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control",@readonly= true })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Account number :", new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.AccountNumber, new { @class = "form-control",@readonly = true })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Check.." class="btn btn-default" />
+            </div>
+        </div>
+    }
+}
+else if (ViewBag.NoAccount == "NotFound")
+{
+    <h4>Account not found!!</h4>
+    <hr />
+    <p>No account found for the entered details.</p>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+            <input type="button" value="Back" onclick="window.location.href='@Url.Action("MiniStatement", "BalanceEnquiry" )';" class="btn btn-default" />
+
+        </div>
+    </div>
+}
+else
+{
+    <h4>Mini Statement</h4>
+    <hr />
+    <p>Recent 5 transactions of your account are following:</p>
+    if (ViewBag.Transactions.Count != 0)
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Transaction date</th>
+                    <th>Transaction</th>
+                    <th>Credited</th>
+                    <th>Debited</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var transaction in ViewBag.Transactions)
+                {
+                    <tr>
+                        <td>@transaction.Date</td>
+                        @*transfer money case*@
+                        @if (transaction.FromBankAccount != null && transaction.ToBankAccount != null)
+                        {
+                            if (transaction.FromBankAccount.Id == ViewBag.LoggedAccount)
+                            {
+                                <td>@transaction.ToBankAccount.UserName</td>
+                                <td></td>
+                                <td>$@transaction.Amount</td>
+                            }
+                            else
+                            {
+                                <td>@transaction.FromBankAccount.UserName</td>
+                                <td>$@transaction.Amount</td>
+                                <td></td>
+                            }
+                        }
+                        @*deposit money case*@
+                        else if (transaction.ToBankAccount != null && transaction.FromBankAccount == null)
+                        {
+                            
+                            <td>@transaction.ToBankAccount.UserName</td>
+                            <td>$@transaction.Amount</td>
+                            <td></td>
+                        }
+                        @*withdraw money case*@
+                        else
+                        {
+                            <td>@transaction.FromBankAccount.UserName</td>
+                            <td></td>
+                            <td>$@transaction.Amount</td>
+                        }
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    }
+    else
+    {
+        <p>No transaction yet for this account.</p>
+    }
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+
+            <input type="button" value="Back" onclick="window.location.href='@Url.Action("MiniStatement", "BalanceEnquiry" )';" class="btn btn-default" />
+
+        </div>
+    </div>
+}
+

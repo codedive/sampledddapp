@@ -1,0 +1,30 @@
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Service.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Service.pdb
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Data.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Model.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\EntityFramework.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Data.pdb
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Banking.Model.pdb
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\EntityFramework.xml
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\obj\Debug\Banking.Service.csprojResolveAssemblyReference.cache
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\obj\Debug\Banking.Service.dll
+F:\Angular2\Banking Application\Source Code\Banking\Banking.Service\obj\Debug\Banking.Service.pdb
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Service.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Service.pdb
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Data.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Model.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Data.pdb
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Banking.Model.pdb
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.dll
+C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.pdb
