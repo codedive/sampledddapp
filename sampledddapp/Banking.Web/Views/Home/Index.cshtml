@@ -1,31 +1,60 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+<style type="text/css">
+    .navBardemoBasicUsage md-content .ext-content {
+        padding: 50px;
+        margin: 20px;
+        background-color: #FFF2E0;
+    }
+</style>
 <div class="jumbotron">
     <h1>World Bank</h1>
     <p class="lead">Welcome to World Bank.</p>
     @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
+<div ng-controller="BankingAppHomeCtrl" ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Check Balance">
+                <md-content class="md-padding">
+                    
+                    <p>
+                        To check your account balance, click @Html.ActionLink("here", "CheckAccountBalance", "BalanceEnquiry")
+                    </p>
+                </md-content>
+            </md-tab>
+            <md-tab label="Bank Statements">
+                <md-content class="md-padding">
+                   
+                    <p>To get your last five transactions, click @Html.ActionLink("here", "MiniStatement", "BalanceEnquiry")</p>
+                </md-content>
+            </md-tab>
+            <md-tab label="Transaction">
+                <md-content class="md-padding">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Balance check..</h2>
-        <p>
-           To check your account balance, click @Html.ActionLink("here", "CheckAccountBalance", "BalanceEnquiry") 
-        </p>
-        
-    </div>
-    <div class="col-md-4">
-        <h2>Bank Statements.. </h2>
-        <p>To get your last five transactions, click @Html.ActionLink("here", "MiniStatement", "BalanceEnquiry")</p>
-       
-    </div>
-    <div class="col-md-4">
-        <h2>Transaction..</h2>
-        <p>To deposit money to your account, click @Html.ActionLink("here", "DepositMoney", "Transaction")</p>
-        <p>To transfer money to other account, click @Html.ActionLink("here", "TransferMoney", "Transaction")</p>
-        <p>To withdraw money, click @Html.ActionLink("here", "WithdrawMoney", "Transaction")</p>
-        
-    </div>
+                   
+                    <p>To deposit money to your account, click @Html.ActionLink("here", "DepositMoney", "Transaction")</p>
+                    <p>To transfer money to other account, click @Html.ActionLink("here", "TransferMoney", "Transaction")</p>
+                    <p>To withdraw money, click @Html.ActionLink("here", "WithdrawMoney", "Transaction")</p>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
 </div>
+
+@section scripts{
+    <script>
+        (function () {
+            'use strict';
+
+            bankingApp
+                .controller('BankingAppHomeCtrl', BankingAppHomeCtrl);
+
+            function BankingAppHomeCtrl($scope) {
+                $scope.currentNavItem = 'page1';
+            }
+        })();
+    </script>
+
+}

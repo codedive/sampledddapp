@@ -28,3 +28,18 @@ C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\bin\Debug\
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.csprojResolveAssemblyReference.cache
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.dll
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Service\obj\Debug\Banking.Service.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Service.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Service.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Data.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Model.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Data.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Banking.Model.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\bin\Debug\EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\obj\Debug\Banking.Service.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\obj\Debug\Banking.Service.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Service\obj\Debug\Banking.Service.pdb

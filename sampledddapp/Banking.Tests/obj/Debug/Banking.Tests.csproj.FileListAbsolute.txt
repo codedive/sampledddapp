@@ -3,3 +3,8 @@ F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\bin\Debug\Bank
 F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.dll
 F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.pdb
 F:\Angular2\Banking Application\Source Code\Banking\Banking.Tests\obj\Debug\Banking.Tests.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Tests\bin\Debug\Banking.Tests.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Tests\bin\Debug\Banking.Tests.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Tests\obj\Debug\Banking.Tests.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Tests\obj\Debug\Banking.Tests.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Tests\obj\Debug\Banking.Tests.pdb

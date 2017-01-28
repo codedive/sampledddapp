@@ -2,8 +2,25 @@
 @{
     ViewBag.Title = "CheckAccountBalance";
 }
+<div flex="" layout="column" style="z-index:1" class="layout-column flex">
+    <section class="demo-container md-whiteframe-z1">
 
-<h2>Account Detail:</h2>
+        <md-toolbar class="demo-toolbar md-primary _md _md-toolbar-transitions">
+            <div class="md-toolbar-tools">
+                <h3 class="ng-binding">Account Detail</h3>
+                <span flex="" class="flex"></span>
+            </div>
+        </md-toolbar>
+        <!-- Live Demos -->
+        <div layout="column" class="ng-scope layout-column">
 
-<p>Balance for account number <b>@Model.AccountNumber</b> is <b>$@Model.Balance</b></p>
-
+            <md-content class="md-padding _md layout-column" layout="column">
+                
+                <p>Balance for account number <b>@Model.AccountNumber</b> is <b>$@Model.Balance</b></p>
+                <div class="pull-right">
+                    <a class="md-button md-raised md-primary" href="/Home/Index">Back To Home</a>
+                </div>
+            </md-content>
+        </div>
+    </section>
+</div>

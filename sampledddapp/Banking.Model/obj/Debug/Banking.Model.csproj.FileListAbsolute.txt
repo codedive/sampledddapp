@@ -25,3 +25,17 @@ C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Model\bin\Debug\Mi
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Model\obj\Debug\Banking.Model.dll
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Model\obj\Debug\Banking.Model.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Banking.Model.dll.config
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Banking.Model.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Banking.Model.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\obj\Debug\Banking.Model.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\obj\Debug\Banking.Model.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Model\obj\Debug\Banking.Model.pdb

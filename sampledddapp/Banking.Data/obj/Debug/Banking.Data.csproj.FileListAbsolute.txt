@@ -34,3 +34,21 @@ C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Data\obj\Debug\Ban
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Data\obj\Debug\Banking.Data.pdb
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Data\obj\Debug\Banking.Data.Migrations.initial.resources
 C:\Users\incredible\Downloads\Banking_ latest\Banking\Banking.Data\obj\Debug\Banking.Data.csproj.GenerateResource.Cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Banking.Data.dll.config
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Banking.Data.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Banking.Data.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Banking.Model.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Banking.Model.pdb
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\obj\Debug\Banking.Data.csprojResolveAssemblyReference.cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\obj\Debug\Banking.Data.Migrations.initial.resources
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\obj\Debug\Banking.Data.csproj.GenerateResource.Cache
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\obj\Debug\Banking.Data.dll
+C:\Users\incredible\Downloads\Banking_ latest\New folder\Banking\Banking.Data\obj\Debug\Banking.Data.pdb
